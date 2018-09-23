@@ -23,7 +23,7 @@
 //c语言中日期实现 x月 
 //建立时间
 //文件名 
-
+//输出顺序不同 无法输入路径
 void my_err(const char *s,int line) { 
     fprintf(stderr,"line: %d ",line); 
     perror(s); 
